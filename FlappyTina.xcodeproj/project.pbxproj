@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F8508F51D4C52A30098851A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8508F41D4C52A30098851A /* AppDelegate.swift */; };
+		7F8508F71D4C52A30098851A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7F8508F61D4C52A30098851A /* GameScene.sks */; };
+		7F8508F91D4C52A30098851A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8508F81D4C52A30098851A /* GameScene.swift */; };
+		7F8508FB1D4C52A30098851A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8508FA1D4C52A30098851A /* GameViewController.swift */; };
+		7F8508FE1D4C52A30098851A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8508FC1D4C52A30098851A /* Main.storyboard */; };
+		7F8509001D4C52A30098851A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F8508FF1D4C52A30098851A /* Assets.xcassets */; };
+		7F8509031D4C52A30098851A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8509011D4C52A30098851A /* LaunchScreen.storyboard */; };
+		7F85090E1D4C52A30098851A /* FlappyTinaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F85090D1D4C52A30098851A /* FlappyTinaTests.swift */; };
+		7F8509191D4C52A30098851A /* FlappyTinaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8509181D4C52A30098851A /* FlappyTinaUITests.swift */; };
+		7F85096D1D4C55580098851A /* Bob's Burgers Chloe Icon Final-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8509541D4C55580098851A /* Bob's Burgers Chloe Icon Final-03.png */; };
+		7F85096E1D4C55580098851A /* Bob's Burgers Chloe Icon Final-04.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8509551D4C55580098851A /* Bob's Burgers Chloe Icon Final-04.png */; };
+		7F85096F1D4C55580098851A /* Bob's Burgers Chloe Icon Final-05.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8509561D4C55580098851A /* Bob's Burgers Chloe Icon Final-05.png */; };
+		7F8509701D4C55580098851A /* Bob's Burgers Chloe Icon Final-06.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8509571D4C55580098851A /* Bob's Burgers Chloe Icon Final-06.png */; };
+		7F8509711D4C55580098851A /* Bob's Burgers Chloe Icon Final-07.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8509581D4C55580098851A /* Bob's Burgers Chloe Icon Final-07.png */; };
+		7F8509721D4C55580098851A /* Bob's Burgers Chloe Icon Final-08.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8509591D4C55580098851A /* Bob's Burgers Chloe Icon Final-08.png */; };
+		7F8509731D4C55580098851A /* Bob's Burgers Chloe Icon Final-09.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F85095A1D4C55580098851A /* Bob's Burgers Chloe Icon Final-09.png */; };
+		7F8509741D4C55580098851A /* Bob's Burgers Chloe Icon Final-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F85095B1D4C55580098851A /* Bob's Burgers Chloe Icon Final-10.png */; };
+		7F8509751D4C55580098851A /* Bob's Burgers Chloe Icon Final-11.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F85095C1D4C55580098851A /* Bob's Burgers Chloe Icon Final-11.png */; };
+		7F8509761D4C55580098851A /* Bob's Burgers Chloe Icon Final-12.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F85095D1D4C55580098851A /* Bob's Burgers Chloe Icon Final-12.png */; };
+		7F8509781D4C55580098851A /* delete-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F85095F1D4C55580098851A /* delete-01.png */; };
+		7F8509791D4C55580098851A /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8509601D4C55580098851A /* delete.png */; };
+		7F85097B1D4C55580098851A /* happy.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8509621D4C55580098851A /* happy.png */; };
+		7F85097C1D4C55580098851A /* love.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8509631D4C55580098851A /* love.png */; };
+		7F85097D1D4C55580098851A /* makeup.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8509641D4C55580098851A /* makeup.png */; };
+		7F85097E1D4C55580098851A /* mess.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8509651D4C55580098851A /* mess.png */; };
+		7F85097F1D4C55580098851A /* normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8509661D4C55580098851A /* normal.png */; };
+		7F8509801D4C55580098851A /* sad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8509671D4C55580098851A /* sad.png */; };
+		7F8509811D4C55580098851A /* surprise.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8509681D4C55580098851A /* surprise.png */; };
+		7F8509821D4C55580098851A /* tina.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8509691D4C55580098851A /* tina.png */; };
+		7F8509831D4C55580098851A /* uhhh.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F85096A1D4C55580098851A /* uhhh.png */; };
+		7F8509851D4C55580098851A /* wink.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F85096C1D4C55580098851A /* wink.png */; };
+		7F8509871D4C70C00098851A /* randomFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8509861D4C70C00098851A /* randomFunc.swift */; };
+		7F8509891D4C87150098851A /* restart.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F8509881D4C87150098851A /* restart.png */; };
+		7F85098B1D4C891B0098851A /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F85098A1D4C891B0098851A /* background.png */; };
+		7F85098D1D4C8ACC0098851A /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F85098C1D4C8ACC0098851A /* background.jpg */; };
+		7F8509991D4C905B0098851A /* wall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F8509981D4C905B0098851A /* wall.jpg */; };
+		7F85099B1D4C90CD0098851A /* floor.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F85099A1D4C90CD0098851A /* floor.png */; };
+		7F85099D1D4C92650098851A /* burger.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F85099C1D4C92650098851A /* burger.png */; };
+		7F8509AA1D4DAB2C0098851A /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8509A91D4DAB2C0098851A /* StatsViewController.swift */; };
+		7F8509AE1D4DBBFD0098851A /* tapAnywhereController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8509AD1D4DBBFD0098851A /* tapAnywhereController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F85090A1D4C52A30098851A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F8508E91D4C52A30098851A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F8508F01D4C52A30098851A;
+			remoteInfo = FlappyTina;
+		};
+		7F8509151D4C52A30098851A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F8508E91D4C52A30098851A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F8508F01D4C52A30098851A;
+			remoteInfo = FlappyTina;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F8508F11D4C52A30098851A /* FlappyTina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyTina.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F8508F41D4C52A30098851A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F8508F61D4C52A30098851A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		7F8508F81D4C52A30098851A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		7F8508FA1D4C52A30098851A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		7F8508FD1D4C52A30098851A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F8508FF1D4C52A30098851A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F8509021D4C52A30098851A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F8509041D4C52A30098851A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F8509091D4C52A30098851A /* FlappyTinaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyTinaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F85090D1D4C52A30098851A /* FlappyTinaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyTinaTests.swift; sourceTree = "<group>"; };
+		7F85090F1D4C52A30098851A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F8509141D4C52A30098851A /* FlappyTinaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyTinaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F8509181D4C52A30098851A /* FlappyTinaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyTinaUITests.swift; sourceTree = "<group>"; };
+		7F85091A1D4C52A30098851A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F8509541D4C55580098851A /* Bob's Burgers Chloe Icon Final-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bob's Burgers Chloe Icon Final-03.png"; sourceTree = "<group>"; };
+		7F8509551D4C55580098851A /* Bob's Burgers Chloe Icon Final-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bob's Burgers Chloe Icon Final-04.png"; sourceTree = "<group>"; };
+		7F8509561D4C55580098851A /* Bob's Burgers Chloe Icon Final-05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bob's Burgers Chloe Icon Final-05.png"; sourceTree = "<group>"; };
+		7F8509571D4C55580098851A /* Bob's Burgers Chloe Icon Final-06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bob's Burgers Chloe Icon Final-06.png"; sourceTree = "<group>"; };
+		7F8509581D4C55580098851A /* Bob's Burgers Chloe Icon Final-07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bob's Burgers Chloe Icon Final-07.png"; sourceTree = "<group>"; };
+		7F8509591D4C55580098851A /* Bob's Burgers Chloe Icon Final-08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bob's Burgers Chloe Icon Final-08.png"; sourceTree = "<group>"; };
+		7F85095A1D4C55580098851A /* Bob's Burgers Chloe Icon Final-09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bob's Burgers Chloe Icon Final-09.png"; sourceTree = "<group>"; };
+		7F85095B1D4C55580098851A /* Bob's Burgers Chloe Icon Final-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bob's Burgers Chloe Icon Final-10.png"; sourceTree = "<group>"; };
+		7F85095C1D4C55580098851A /* Bob's Burgers Chloe Icon Final-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bob's Burgers Chloe Icon Final-11.png"; sourceTree = "<group>"; };
+		7F85095D1D4C55580098851A /* Bob's Burgers Chloe Icon Final-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bob's Burgers Chloe Icon Final-12.png"; sourceTree = "<group>"; };
+		7F85095F1D4C55580098851A /* delete-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete-01.png"; sourceTree = "<group>"; };
+		7F8509601D4C55580098851A /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		7F8509621D4C55580098851A /* happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happy.png; sourceTree = "<group>"; };
+		7F8509631D4C55580098851A /* love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = love.png; sourceTree = "<group>"; };
+		7F8509641D4C55580098851A /* makeup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = makeup.png; sourceTree = "<group>"; };
+		7F8509651D4C55580098851A /* mess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mess.png; sourceTree = "<group>"; };
+		7F8509661D4C55580098851A /* normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normal.png; sourceTree = "<group>"; };
+		7F8509671D4C55580098851A /* sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sad.png; sourceTree = "<group>"; };
+		7F8509681D4C55580098851A /* surprise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = surprise.png; sourceTree = "<group>"; };
+		7F8509691D4C55580098851A /* tina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tina.png; sourceTree = "<group>"; };
+		7F85096A1D4C55580098851A /* uhhh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uhhh.png; sourceTree = "<group>"; };
+		7F85096C1D4C55580098851A /* wink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wink.png; sourceTree = "<group>"; };
+		7F8509861D4C70C00098851A /* randomFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = randomFunc.swift; sourceTree = "<group>"; };
+		7F8509881D4C87150098851A /* restart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restart.png; sourceTree = "<group>"; };
+		7F85098A1D4C891B0098851A /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		7F85098C1D4C8ACC0098851A /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		7F8509981D4C905B0098851A /* wall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wall.jpg; sourceTree = "<group>"; };
+		7F85099A1D4C90CD0098851A /* floor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floor.png; sourceTree = "<group>"; };
+		7F85099C1D4C92650098851A /* burger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burger.png; sourceTree = "<group>"; };
+		7F8509A91D4DAB2C0098851A /* StatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StatsViewController.swift; path = ../StatsViewController.swift; sourceTree = "<group>"; };
+		7F8509AD1D4DBBFD0098851A /* tapAnywhereController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = tapAnywhereController.swift; path = ../tapAnywhereController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F8508EE1D4C52A30098851A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8509061D4C52A30098851A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8509111D4C52A30098851A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F8508E81D4C52A30098851A = {
+			isa = PBXGroup;
+			children = (
+				7F8509531D4C55580098851A /* Tina */,
+				7F8508F31D4C52A30098851A /* FlappyTina */,
+				7F85090C1D4C52A30098851A /* FlappyTinaTests */,
+				7F8509171D4C52A30098851A /* FlappyTinaUITests */,
+				7F8508F21D4C52A30098851A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F8508F21D4C52A30098851A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F8508F11D4C52A30098851A /* FlappyTina.app */,
+				7F8509091D4C52A30098851A /* FlappyTinaTests.xctest */,
+				7F8509141D4C52A30098851A /* FlappyTinaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F8508F31D4C52A30098851A /* FlappyTina */ = {
+			isa = PBXGroup;
+			children = (
+				7F8509AD1D4DBBFD0098851A /* tapAnywhereController.swift */,
+				7F8509A91D4DAB2C0098851A /* StatsViewController.swift */,
+				7F8508F41D4C52A30098851A /* AppDelegate.swift */,
+				7F8508F61D4C52A30098851A /* GameScene.sks */,
+				7F8508F81D4C52A30098851A /* GameScene.swift */,
+				7F8509861D4C70C00098851A /* randomFunc.swift */,
+				7F8508FA1D4C52A30098851A /* GameViewController.swift */,
+				7F8508FC1D4C52A30098851A /* Main.storyboard */,
+				7F8508FF1D4C52A30098851A /* Assets.xcassets */,
+				7F8509011D4C52A30098851A /* LaunchScreen.storyboard */,
+				7F8509041D4C52A30098851A /* Info.plist */,
+			);
+			path = FlappyTina;
+			sourceTree = "<group>";
+		};
+		7F85090C1D4C52A30098851A /* FlappyTinaTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F85090D1D4C52A30098851A /* FlappyTinaTests.swift */,
+				7F85090F1D4C52A30098851A /* Info.plist */,
+			);
+			path = FlappyTinaTests;
+			sourceTree = "<group>";
+		};
+		7F8509171D4C52A30098851A /* FlappyTinaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F8509181D4C52A30098851A /* FlappyTinaUITests.swift */,
+				7F85091A1D4C52A30098851A /* Info.plist */,
+			);
+			path = FlappyTinaUITests;
+			sourceTree = "<group>";
+		};
+		7F8509531D4C55580098851A /* Tina */ = {
+			isa = PBXGroup;
+			children = (
+				7F8509541D4C55580098851A /* Bob's Burgers Chloe Icon Final-03.png */,
+				7F8509551D4C55580098851A /* Bob's Burgers Chloe Icon Final-04.png */,
+				7F8509561D4C55580098851A /* Bob's Burgers Chloe Icon Final-05.png */,
+				7F8509571D4C55580098851A /* Bob's Burgers Chloe Icon Final-06.png */,
+				7F8509581D4C55580098851A /* Bob's Burgers Chloe Icon Final-07.png */,
+				7F8509881D4C87150098851A /* restart.png */,
+				7F8509591D4C55580098851A /* Bob's Burgers Chloe Icon Final-08.png */,
+				7F85095A1D4C55580098851A /* Bob's Burgers Chloe Icon Final-09.png */,
+				7F85095B1D4C55580098851A /* Bob's Burgers Chloe Icon Final-10.png */,
+				7F85095C1D4C55580098851A /* Bob's Burgers Chloe Icon Final-11.png */,
+				7F85095D1D4C55580098851A /* Bob's Burgers Chloe Icon Final-12.png */,
+				7F85095F1D4C55580098851A /* delete-01.png */,
+				7F85098C1D4C8ACC0098851A /* background.jpg */,
+				7F8509981D4C905B0098851A /* wall.jpg */,
+				7F85099C1D4C92650098851A /* burger.png */,
+				7F8509601D4C55580098851A /* delete.png */,
+				7F85098A1D4C891B0098851A /* background.png */,
+				7F8509621D4C55580098851A /* happy.png */,
+				7F85099A1D4C90CD0098851A /* floor.png */,
+				7F8509631D4C55580098851A /* love.png */,
+				7F8509641D4C55580098851A /* makeup.png */,
+				7F8509651D4C55580098851A /* mess.png */,
+				7F8509661D4C55580098851A /* normal.png */,
+				7F8509671D4C55580098851A /* sad.png */,
+				7F8509681D4C55580098851A /* surprise.png */,
+				7F8509691D4C55580098851A /* tina.png */,
+				7F85096A1D4C55580098851A /* uhhh.png */,
+				7F85096C1D4C55580098851A /* wink.png */,
+			);
+			path = Tina;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F8508F01D4C52A30098851A /* FlappyTina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F85091D1D4C52A30098851A /* Build configuration list for PBXNativeTarget "FlappyTina" */;
+			buildPhases = (
+				7F8508ED1D4C52A30098851A /* Sources */,
+				7F8508EE1D4C52A30098851A /* Frameworks */,
+				7F8508EF1D4C52A30098851A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlappyTina;
+			productName = FlappyTina;
+			productReference = 7F8508F11D4C52A30098851A /* FlappyTina.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F8509081D4C52A30098851A /* FlappyTinaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F8509201D4C52A30098851A /* Build configuration list for PBXNativeTarget "FlappyTinaTests" */;
+			buildPhases = (
+				7F8509051D4C52A30098851A /* Sources */,
+				7F8509061D4C52A30098851A /* Frameworks */,
+				7F8509071D4C52A30098851A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F85090B1D4C52A30098851A /* PBXTargetDependency */,
+			);
+			name = FlappyTinaTests;
+			productName = FlappyTinaTests;
+			productReference = 7F8509091D4C52A30098851A /* FlappyTinaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F8509131D4C52A30098851A /* FlappyTinaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F8509231D4C52A30098851A /* Build configuration list for PBXNativeTarget "FlappyTinaUITests" */;
+			buildPhases = (
+				7F8509101D4C52A30098851A /* Sources */,
+				7F8509111D4C52A30098851A /* Frameworks */,
+				7F8509121D4C52A30098851A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F8509161D4C52A30098851A /* PBXTargetDependency */,
+			);
+			name = FlappyTinaUITests;
+			productName = FlappyTinaUITests;
+			productReference = 7F8509141D4C52A30098851A /* FlappyTinaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F8508E91D4C52A30098851A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Emily Weyda";
+				TargetAttributes = {
+					7F8508F01D4C52A30098851A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5M8AX8J565;
+					};
+					7F8509081D4C52A30098851A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5M8AX8J565;
+						TestTargetID = 7F8508F01D4C52A30098851A;
+					};
+					7F8509131D4C52A30098851A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5M8AX8J565;
+						TestTargetID = 7F8508F01D4C52A30098851A;
+					};
+				};
+			};
+			buildConfigurationList = 7F8508EC1D4C52A30098851A /* Build configuration list for PBXProject "FlappyTina" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F8508E81D4C52A30098851A;
+			productRefGroup = 7F8508F21D4C52A30098851A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F8508F01D4C52A30098851A /* FlappyTina */,
+				7F8509081D4C52A30098851A /* FlappyTinaTests */,
+				7F8509131D4C52A30098851A /* FlappyTinaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F8508EF1D4C52A30098851A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8509701D4C55580098851A /* Bob's Burgers Chloe Icon Final-06.png in Resources */,
+				7F85097C1D4C55580098851A /* love.png in Resources */,
+				7F8509831D4C55580098851A /* uhhh.png in Resources */,
+				7F85097D1D4C55580098851A /* makeup.png in Resources */,
+				7F85097F1D4C55580098851A /* normal.png in Resources */,
+				7F8509781D4C55580098851A /* delete-01.png in Resources */,
+				7F85098B1D4C891B0098851A /* background.png in Resources */,
+				7F8508F71D4C52A30098851A /* GameScene.sks in Resources */,
+				7F8509031D4C52A30098851A /* LaunchScreen.storyboard in Resources */,
+				7F8509731D4C55580098851A /* Bob's Burgers Chloe Icon Final-09.png in Resources */,
+				7F85096F1D4C55580098851A /* Bob's Burgers Chloe Icon Final-05.png in Resources */,
+				7F85096E1D4C55580098851A /* Bob's Burgers Chloe Icon Final-04.png in Resources */,
+				7F8509811D4C55580098851A /* surprise.png in Resources */,
+				7F8509001D4C52A30098851A /* Assets.xcassets in Resources */,
+				7F8509821D4C55580098851A /* tina.png in Resources */,
+				7F85096D1D4C55580098851A /* Bob's Burgers Chloe Icon Final-03.png in Resources */,
+				7F8508FE1D4C52A30098851A /* Main.storyboard in Resources */,
+				7F8509721D4C55580098851A /* Bob's Burgers Chloe Icon Final-08.png in Resources */,
+				7F85097E1D4C55580098851A /* mess.png in Resources */,
+				7F85099D1D4C92650098851A /* burger.png in Resources */,
+				7F8509851D4C55580098851A /* wink.png in Resources */,
+				7F8509891D4C87150098851A /* restart.png in Resources */,
+				7F8509991D4C905B0098851A /* wall.jpg in Resources */,
+				7F8509711D4C55580098851A /* Bob's Burgers Chloe Icon Final-07.png in Resources */,
+				7F8509791D4C55580098851A /* delete.png in Resources */,
+				7F8509801D4C55580098851A /* sad.png in Resources */,
+				7F85097B1D4C55580098851A /* happy.png in Resources */,
+				7F8509751D4C55580098851A /* Bob's Burgers Chloe Icon Final-11.png in Resources */,
+				7F8509741D4C55580098851A /* Bob's Burgers Chloe Icon Final-10.png in Resources */,
+				7F85098D1D4C8ACC0098851A /* background.jpg in Resources */,
+				7F85099B1D4C90CD0098851A /* floor.png in Resources */,
+				7F8509761D4C55580098851A /* Bob's Burgers Chloe Icon Final-12.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8509071D4C52A30098851A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8509121D4C52A30098851A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F8508ED1D4C52A30098851A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8509AE1D4DBBFD0098851A /* tapAnywhereController.swift in Sources */,
+				7F8509871D4C70C00098851A /* randomFunc.swift in Sources */,
+				7F8508F91D4C52A30098851A /* GameScene.swift in Sources */,
+				7F8508FB1D4C52A30098851A /* GameViewController.swift in Sources */,
+				7F8509AA1D4DAB2C0098851A /* StatsViewController.swift in Sources */,
+				7F8508F51D4C52A30098851A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8509051D4C52A30098851A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F85090E1D4C52A30098851A /* FlappyTinaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8509101D4C52A30098851A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8509191D4C52A30098851A /* FlappyTinaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F85090B1D4C52A30098851A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F8508F01D4C52A30098851A /* FlappyTina */;
+			targetProxy = 7F85090A1D4C52A30098851A /* PBXContainerItemProxy */;
+		};
+		7F8509161D4C52A30098851A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F8508F01D4C52A30098851A /* FlappyTina */;
+			targetProxy = 7F8509151D4C52A30098851A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F8508FC1D4C52A30098851A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F8508FD1D4C52A30098851A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F8509011D4C52A30098851A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F8509021D4C52A30098851A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F85091B1D4C52A30098851A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F85091C1D4C52A30098851A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F85091E1D4C52A30098851A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = FlappyTina/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uc.cech.it.basiciPhone.FlappyTina;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F85091F1D4C52A30098851A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = FlappyTina/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uc.cech.it.basiciPhone.FlappyTina;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7F8509211D4C52A30098851A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = FlappyTinaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uc.cech.it.basiciPhone.FlappyTinaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlappyTina.app/FlappyTina";
+			};
+			name = Debug;
+		};
+		7F8509221D4C52A30098851A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlappyTinaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uc.cech.it.basiciPhone.FlappyTinaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlappyTina.app/FlappyTina";
+			};
+			name = Release;
+		};
+		7F8509241D4C52A30098851A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = FlappyTinaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uc.cech.it.basiciPhone.FlappyTinaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FlappyTina;
+			};
+			name = Debug;
+		};
+		7F8509251D4C52A30098851A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FlappyTinaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uc.cech.it.basiciPhone.FlappyTinaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FlappyTina;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F8508EC1D4C52A30098851A /* Build configuration list for PBXProject "FlappyTina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F85091B1D4C52A30098851A /* Debug */,
+				7F85091C1D4C52A30098851A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F85091D1D4C52A30098851A /* Build configuration list for PBXNativeTarget "FlappyTina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F85091E1D4C52A30098851A /* Debug */,
+				7F85091F1D4C52A30098851A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F8509201D4C52A30098851A /* Build configuration list for PBXNativeTarget "FlappyTinaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F8509211D4C52A30098851A /* Debug */,
+				7F8509221D4C52A30098851A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F8509231D4C52A30098851A /* Build configuration list for PBXNativeTarget "FlappyTinaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F8509241D4C52A30098851A /* Debug */,
+				7F8509251D4C52A30098851A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F8508E91D4C52A30098851A /* Project object */;
+}
